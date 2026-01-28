@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVTRANS - PTT | Công ty Vận tải Dầu khí Đông Dương</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0047AB',
+                        secondary: '#FF6B00',
+                        dark: '#1a1a2e',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="text-2xl font-bold text-primary">
+                            <span class="text-secondary">PV</span>TRANS - PTT
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition">Trang chủ</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary transition">Về chúng tôi</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition">Dịch vụ</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition">Liên hệ</a>
+                    <button class="bg-secondary text-white px-6 py-2 rounded-full hover:bg-orange-600 transition">
+                        Báo giá
+                    </button>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700 hover:text-primary">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 bg-gradient-to-br from-primary via-blue-800 to-dark text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                        Giải pháp vận tải dầu khí<br/>
+                        <span class="text-secondary">Chuyên nghiệp & An toàn</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-gray-200">
+                        Với hơn 17 năm kinh nghiệm, PVTRANS - PTT là đối tác đáng tin cậy trong lĩnh vực vận tải và logistics dầu khí tại Việt Nam.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button class="bg-secondary text-white px-8 py-3 rounded-full hover:bg-orange-600 transition font-semibold">
+                            Tìm hiểu thêm
+                        </button>
+                        <button class="bg-white text-primary px-8 py-3 rounded-full hover:bg-gray-100 transition font-semibold">
+                            Liên hệ ngay
+                        </button>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-secondary rounded-full opacity-20 blur-3xl"></div>
+                        <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=600&h=600&fit=crop" 
+                             alt="Oil Transportation" 
+                             class="relative rounded-2xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Section -->
+        <div class="bg-white/10 backdrop-blur-sm border-t border-white/20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary mb-2">17+</div>
+                        <div class="text-sm text-gray-200">Năm kinh nghiệm</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary mb-2">500+</div>
+                        <div class="text-sm text-gray-200">Đối tác tin cậy</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary mb-2">100+</div>
+                        <div class="text-sm text-gray-200">Phương tiện vận tải</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-secondary mb-2">24/7</div>
+                        <div class="text-sm text-gray-200">Hỗ trợ khách hàng</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">Về PVTRANS - PTT</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Công ty Cổ phần Vận tải Dầu khí Đông Dương - Đơn vị tiên phong trong lĩnh vực vận tải và logistics dầu khí
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=600&fit=crop" 
+                         alt="Company" 
+                         class="rounded-2xl shadow-xl">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-dark mb-4">Thông tin doanh nghiệp</h3>
+                    <div class="space-y-4 text-gray-700">
+                        <div class="flex items-start">
+                            <i class="fas fa-building text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold">Tên công ty</div>
+                                <div>CÔNG TY CỔ PHẦN VẬN TẢI DẦU KHÍ ĐÔNG DƯƠNG</div>
+                                <div class="text-sm text-gray-500">INDOCHINA PETROLEUM TRANSPORTATION JSC</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold">Mã số doanh nghiệp</div>
+                                <div>0102327357</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-calendar text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold">Ngày đăng ký</div>
+                                <div>25/07/2007</div>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-dollar-sign text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold">Vốn điều lệ</div>
+                                <div>164.931.720.000 đồng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">Dịch vụ của chúng tôi</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Cung cấp giải pháp vận tải toàn diện với tiêu chuẩn chất lượng quốc tế
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-primary to-blue-700 text-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="bg-white/20 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-truck text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Vận tải dầu khí</h3>
+                    <p class="text-gray-100 mb-6">
+                        Vận chuyển các loại nhiên liệu dầu khí với đội ngũ chuyên nghiệp và phương tiện hiện đại, đảm bảo an toàn tuyệt đối.
+                    </p>
+                    <a href="#" class="text-secondary font-semibold hover:underline">Tìm hiểu thêm →</a>
+                </div>
+
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-warehouse text-secondary text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-dark mb-4">Kho bãi & Logistics</h3>
+                    <p class="text-gray-600 mb-6">
+                        Hệ thống kho bãi tiêu chuẩn quốc tế với công nghệ quản lý hiện đại, tối ưu chi phí cho khách hàng.
+                    </p>
+                    <a href="#" class="text-primary font-semibold hover:underline">Tìm hiểu thêm →</a>
+                </div>
+
+                <div class="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2">
+                    <div class="bg-secondary/10 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-secondary text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-dark mb-4">Tư vấn & Hỗ trợ</h3>
+                    <p class="text-gray-600 mb-6">
+                        Đội ngũ chuyên gia tư vấn giải pháp tối ưu, hỗ trợ 24/7 đáp ứng mọi nhu cầu của khách hàng.
+                    </p>
+                    <a href="#" class="text-primary font-semibold hover:underline">Tìm hiểu thêm →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-dark mb-4">Tại sao chọn PVTRANS - PTT?</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-primary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-shield-alt text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">An toàn tuyệt đối</h3>
+                    <p class="text-gray-600">Tuân thủ nghiêm ngặt các tiêu chuẩn an toàn quốc tế</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-secondary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Chất lượng đảm bảo</h3>
+                    <p class="text-gray-600">ISO 9001:2015 và các chứng nhận chất lượng</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-primary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Giao hàng đúng hạn</h3>
+                    <p class="text-gray-600">Cam kết thời gian giao hàng chính xác</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-secondary w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-handshake text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark mb-3">Đối tác tin cậy</h3>
+                    <p class="text-gray-600">Hợp tác lâu dài với các tập đoàn lớn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-primary to-dark text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">Liên hệ với chúng tôi</h2>
+                    <p class="text-xl text-gray-200 mb-8">
+                        Hãy để chúng tôi giúp bạn tìm giải pháp vận tải tốt nhất cho doanh nghiệp của bạn.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold mb-1">Địa chỉ</div>
+                                <div class="text-gray-200">
+                                    Tầng 6, tòa nhà Việt Á, số 9 phố Duy Tân,<br/>
+                                    Phường Dịch Vọng Hậu, Quận Cầu Giấy,<br/>
+                                    Thành phố Hà Nội, Việt Nam
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start">
+                            <i class="fas fa-envelope text-secondary text-xl mr-4 mt-1"></i>
+                            <div>
+                                <div class="font-semibold mb-1">Email</div>
+                                <div class="text-gray-200">nguyentuan1992tm@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <form class="bg-white rounded-2xl p-8 shadow-2xl">
+                        <h3 class="text-2xl font-bold text-dark mb-6">Gửi yêu cầu báo giá</h3>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Họ và tên *</label>
+                                <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-gray-900" placeholder="Nhập họ và tên">
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Email *</label>
+                                <input type="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-gray-900" placeholder="email@example.com">
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Số điện thoại *</label>
+                                <input type="tel" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-gray-900" placeholder="0123 456 789">
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Dịch vụ quan tâm</label>
+                                <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-gray-900">
+                                    <option>Vận tải dầu khí</option>
+                                    <option>Kho bãi & Logistics</option>
+                                    <option>Tư vấn & Hỗ trợ</option>
+                                    <option>Khác</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Nội dung</label>
+                                <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-gray-900" placeholder="Mô tả yêu cầu của bạn..."></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-secondary text-white py-3 rounded-lg font-semibold hover:bg-orange-600 transition">
+                                Gửi yêu cầu
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <div class="text-2xl font-bold mb-4">
+                        <span class="text-secondary">PV</span>TRANS - PTT
+                    </div>
+                    <p class="text-gray-400">
+                        Đối tác tin cậy trong lĩnh vực vận tải và logistics dầu khí.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Dịch vụ</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-secondary transition">Vận tải dầu khí</a></li>
+                        <li><a href="#" class="hover:text-secondary transition">Kho bãi & Logistics</a></li>
+                        <li><a href="#" class="hover:text-secondary transition">Tư vấn & Hỗ trợ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Công ty</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-secondary transition">Về chúng tôi</a></li>
+                        <li><a href="#" class="hover:text-secondary transition">Tin tức</a></li>
+                        <li><a href="#" class="hover:text-secondary transition">Tuyển dụng</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Theo dõi chúng tôi</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-secondary transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 PVTRANS - PTT. All rights reserved. | Mã số doanh nghiệp: 0102327357</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
